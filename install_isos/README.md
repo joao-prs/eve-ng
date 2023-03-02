@@ -67,7 +67,7 @@ wget https://cdn-cybersecurity.att.com/downloads/AlienVault_OSSIM_64bits.iso
 
 mv AlienVault_OSSIM_64bits.iso cdrom.iso
 
-/opt/qemu/bin/qemu-img create -f qcow2 hda.qcow2 50G
+/opt/qemu/bin/qemu-img create -f qcow2 hda.qcow2 50Gkkk
 ```
 
 ### node zabbix
