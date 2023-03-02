@@ -11,10 +11,7 @@ manual ou laboratorio para ajudar pessoas a configurar um ambiente no eve-ng. Pa
 | libvncserver | yay -S libvncserver | protocolo VNC plugin para acesso remoto, caso o vinagre não funcione |
 
 
-
-
 ## outras ferramentas uteis
 | Nome | Install | Desc. |
 | ---- | ------- | ----- |
 | freerdp | yay -S freerdp | protocolo RDP plugin para acesso remoto |
-
