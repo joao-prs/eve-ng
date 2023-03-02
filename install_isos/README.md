@@ -92,7 +92,7 @@ rm -rf zabbix_appliance-6.2.7-qcow2/
 
 
 
-
+<!--
 
 # Adicione uma network cloud0
 
@@ -101,6 +101,6 @@ rm -rf zabbix_appliance-6.2.7-qcow2/
 # Adicione um switch e conecte aos routers
 
 # Adicione um Virtual PC e o conect ao switch
-
+-->
 
 
