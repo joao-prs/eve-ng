@@ -5,8 +5,16 @@ manual ou laboratorio para ajudar pessoas a configurar um ambiente no eve-ng. Pa
 ## Instale as seguinte ferramentas
 | Nome | Install | Desc. |
 | ---- | ------- | ----- |
-| remmina | yay -S remmina | ... |
-| remmina-plugin-ultravnc | yay -S remmina-plugin-ultravnc | plugin do protocolo VNC para acesso remoto a interface linux no eve |
+| remmina | yay -S remmina | software de acesso remoto a outros hosts |
+| wireshark | yay -S remmina | software de captura de pacotes |
+| vinagre | yay -S vinagre | software de acesso remoto |
+| libvncserver | yay -S libvncserver | protocolo VNC plugin para acesso remoto, caso o vinagre não funcione |
 
 
+
+
+## outras ferramentas uteis
+| Nome | Install | Desc. |
+| ---- | ------- | ----- |
+| freerdp | yay -S freerdp | protocolo RDP plugin para acesso remoto |
 
