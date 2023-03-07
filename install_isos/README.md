@@ -3,13 +3,11 @@ aqui você pode extrair algumas formas e diretas de adicionar alguns nodes impor
 
 ### node Linux CentOS 7
 crie o diretrio neste caminho
-```sh
-cd /opt/unetlab/addons/qemu && mkdir linux-centos-7 && cd linux-centos-7
-```
+`cd /opt/unetlab/addons/qemu && mkdir linux-centos-7 && cd linux-centos-7`
+
 baixe a imagem dentro do diretório
-```sh
-wget http://mirror.ufam.edu.br/centos/7.9.2009/isos/x86_64/CentOS-7-x86_64-Minimal-2207-02.iso
-```
+`wget http://mirror.ufam.edu.br/centos/7.9.2009/isos/x86_64/CentOS-7-x86_64-Minimal-2207-02.iso`
+
 renomeie ela configure ela para o ambiente
 ```sh
 mv CentOS-7-x86_64-Minimal-2207-02.iso cdrom.iso
@@ -19,18 +17,15 @@ mv CentOS-7-x86_64-Minimal-2207-02.iso cdrom.iso
 ### node Switch Cisco IOL
 link switch Cisco IOL, baixe tudo zipado
 https://drive.google.com/drive/folders/18jDCPBz8JYcOguH1nz6YMR-9Qt4BUN54
+
 # mova o zip para esse diretorio
-```sh
-mv aquivo.zip /opt/unetlab/addons/iol/bin
-```
+`mv aquivo.zip /opt/unetlab/addons/iol/bin`
+
 descompacte e suba tudo para a pasta bin
-```sh
-unzip arquivo.zip && mv arquivo/* .
-```
+`unzip arquivo.zip && mv arquivo/* .`
+
 por fim rode o unl_wrapper
-```sh
-/opt/unetlab/wrappers/unl_wrapper -a fixpermissions
-```
+`/opt/unetlab/wrappers/unl_wrapper -a fixpermissions`
 
 ### node mikrotik Router OS
 
