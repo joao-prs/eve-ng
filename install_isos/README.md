@@ -24,32 +24,30 @@ https://drive.google.com/drive/folders/18jDCPBz8JYcOguH1nz6YMR-9Qt4BUN54
 descompacte e suba tudo para a pasta bin
 `unzip arquivo.zip && mv arquivo/* .`
 
-por fim rode o unl_wrapper
+rode o unl_wrapper
 `/opt/unetlab/wrappers/unl_wrapper -a fixpermissions`
 
 ### node mikrotik Router OS
+crie um diretório
+`mkdir /opt/unetlab/addons/qemu/mikrotik-6.48.6`
 
-```sh
-mkdir /opt/unetlab/addons/qemu/mikrotik-6.48.6
-```
-```sh
-cd /opt/unetlab/addons/qemu/mikrotik-6.48.6
-```
-```sh
-wget https://download.mikrotik.com/routeros/6.48.6/chr-6.48.6.img.zip
-```
-```sh
-unzip chr-6.48.6.img.zip
-```
-```sh
-mv chr-6.48.6.img hda.qcow2
-```
-```sh
-rm chr-6.48.6.img.zip
-```
-```sh
-/opt/unetlab/wrappers/unl_wrapper -a fixpermissions
-```
+navegue até o mesmo
+`cd /opt/unetlab/addons/qemu/mikrotik-6.48.6`
+
+baixe a imagem
+`wget https://download.mikrotik.com/routeros/6.48.6/chr-6.48.6.img.zip`
+
+descompacte o arquivo baixado
+`unzip chr-6.48.6.img.zip`
+
+renomeie a imagem para que o eve possa trabalhar
+`mv chr-6.48.6.img hda.qcow2`
+
+remova o restante
+`rm chr-6.48.6.img.zip`
+
+ ode o unl_wrapper
+`/opt/unetlab/wrappers/unl_wrapper -a fixpermissions`
 
 
 ### node AlienVault Cybersecurity OSSIM
