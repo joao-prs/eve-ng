@@ -18,7 +18,7 @@ mv CentOS-7-x86_64-Minimal-2207-02.iso cdrom.iso
 link switch Cisco IOL, baixe tudo zipado
 https://drive.google.com/drive/folders/18jDCPBz8JYcOguH1nz6YMR-9Qt4BUN54
 
-# mova o zip para esse diretorio
+mova o zip para esse diretorio
 `mv aquivo.zip /opt/unetlab/addons/iol/bin`
 
 descompacte e suba tudo para a pasta bin
