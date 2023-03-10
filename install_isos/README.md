@@ -1,4 +1,4 @@
-# Alguns Nodes
+# Alguns Nodes 🖥️💻🎛️
 aqui você pode extrair algumas formas e diretas de adicionar alguns nodes importantes para o seu laboratório.
 
 ### node Linux CentOS 7
