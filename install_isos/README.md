@@ -8,11 +8,26 @@ crie o diretrio neste caminho
 baixe a imagem dentro do diretório
 `wget http://mirror.ufam.edu.br/centos/7.9.2009/isos/x86_64/CentOS-7-x86_64-Minimal-2207-02.iso`
 
-renomeie ela configure ela para o ambiente
+renomeie ela e configure ela para o ambiente
 ```sh
 mv CentOS-7-x86_64-Minimal-2207-02.iso cdrom.iso
 /opt/qemu/bin/qemu-img create -f qcow2 virtioa.qcow2 30G
 ```
+
+
+### node Linux Debian 11
+crie o diretrio neste caminho
+`cd /opt/unetlab/addons/qemu && mkdir linux-debian-11 && cd linux-debian-11`
+
+baixe a imagem dentro do diretório
+`wget https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-11.6.0-amd64-netinst.iso`
+
+renomeie ela e configure ela para o ambiente
+```sh
+mv debian-11.6.0-amd64-netinst.iso cdrom.iso
+/opt/qemu/bin/qemu-img create -f qcow2 virtioa.qcow2 30G
+```
+
 
 ### node Switch Cisco IOL
 link switch Cisco IOL, baixe tudo zipado
